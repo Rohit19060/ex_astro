@@ -1,19 +1,43 @@
 ---
+const pageTitle = "About Me";
+const identity = {
+  firstName: "Sarah",
+  country: "Canada",
+  occupation: "Technical Writer",
+  hobbies: ["photography", "birdwatching", "baseball"],
+};
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+
+const happy = true;
+const finished = false;
+const goal = 3;
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>About | Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
+    <ul>
+      {skills.map((skill) => <li>{skill}</li>)}
+    </ul>
+    {happy && <p>I am happy to be learning Astro!</p>}
+
+    {finished && <p>I finished this tutorial!</p>}
+
+    {
+      goal === 3 ? (
+        <p>My goal is to finish in 3 days.</p>
+      ) : (
+        <p>My goal is not 3 days.</p>
+      )
+    }
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
-    <h1>About Me</h1>
+    <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
 
     <p>
