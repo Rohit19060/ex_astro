@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@astrojs/preact':
     specifier: ^2.2.1
-    version: 2.2.1(preact@10.11.3)
+    version: 2.2.1(preact@10.16.0)
   '@astrojs/rss':
     specifier: ^2.0.0
     version: 2.0.0
@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.8.0
     version: 2.8.0
   preact:
-    specifier: ^10.11.3
-    version: 10.11.3
+    specifier: ^10.16.0
+    version: 10.16.0
 
 packages:
 
@@ -78,7 +78,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/preact@2.2.1(preact@10.11.3):
+  /@astrojs/preact@2.2.1(preact@10.16.0):
     resolution: {integrity: sha512-lObgrX/qfK2sEnGDWoyQ8KojFJ54FIKB4TeywWmgj4ZTg0yLnvvOz6ReyPQ8VfR/1MU+vWs22jE4cuZJ/vPnOA==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -86,10 +86,10 @@ packages:
     dependencies:
       '@babel/core': 7.20.12
       '@babel/plugin-transform-react-jsx': 7.20.7(@babel/core@7.20.12)
-      '@preact/signals': 1.1.3(preact@10.11.3)
+      '@preact/signals': 1.1.3(preact@10.16.0)
       babel-plugin-module-resolver: 5.0.0
-      preact: 10.11.3
-      preact-render-to-string: 5.2.6(preact@10.11.3)
+      preact: 10.16.0
+      preact-render-to-string: 5.2.6(preact@10.16.0)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -765,13 +765,13 @@ packages:
     resolution: {integrity: sha512-Kui4p7PMcEQevBgsTO0JBo3gyQ88Q3qzEvsVCuSp11t0JcN4DmGCTJcGRVSCq7Bn7lGxJBO+57jNSzDoDJ+QmA==}
     dev: false
 
-  /@preact/signals@1.1.3(preact@10.11.3):
+  /@preact/signals@1.1.3(preact@10.16.0):
     resolution: {integrity: sha512-N09DuAVvc90bBZVRwD+aFhtGyHAmJLhS3IFoawO/bYJRcil4k83nBOchpCEoS0s5+BXBpahgp0Mjf+IOqP57Og==}
     peerDependencies:
       preact: 10.x
     dependencies:
       '@preact/signals-core': 1.2.3
-      preact: 10.11.3
+      preact: 10.16.0
     dev: false
 
   /@types/babel__core@7.20.1:
@@ -2524,17 +2524,17 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preact-render-to-string@5.2.6(preact@10.11.3):
+  /preact-render-to-string@5.2.6(preact@10.16.0):
     resolution: {integrity: sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.11.3
+      preact: 10.16.0
       pretty-format: 3.8.0
     dev: false
 
-  /preact@10.11.3:
-    resolution: {integrity: sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg==}
+  /preact@10.16.0:
+    resolution: {integrity: sha512-XTSj3dJ4roKIC93pald6rWuB2qQJO9gO2iLLyTe87MrjQN+HklueLsmskbywEWqCHlclgz3/M4YLL2iBr9UmMA==}
     dev: false
 
   /preferred-pm@3.0.3:
