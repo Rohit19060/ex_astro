@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.2.1
     version: 2.2.1(preact@10.16.0)
   '@astrojs/rss':
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^2.4.4
+    version: 2.4.4
   astro:
     specifier: ^2.10.1
     version: 2.10.1
@@ -101,10 +101,11 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/rss@2.0.0:
-    resolution: {integrity: sha512-qXsmyq2HhnKRA85US6GLelT47VLhdtS0bNq88umqfB2uneB9vWHSLnOJjhN9rv0mUSQjsFYytF4IEznfmNnpkQ==}
+  /@astrojs/rss@2.4.4:
+    resolution: {integrity: sha512-HQFoHyHVoODyeyAFoVPej8OOZowiuXvB5AFIzY4AiPCdwlBz5JGpzW5vPARG/FCqAI9AS3Wi0sU/RZh3Cu8SWQ==}
     dependencies:
       fast-xml-parser: 4.2.7
+      kleur: 4.1.5
     dev: false
 
   /@astrojs/telemetry@2.1.1:
