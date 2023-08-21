@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.10.1
     version: 2.10.7
   preact:
-    specifier: ^10.17.0
-    version: 10.17.0
+    specifier: ^10.17.1
+    version: 10.17.1
 
 packages:
 
@@ -2526,8 +2526,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preact@10.17.0:
-    resolution: {integrity: sha512-SNsI8cbaCcUS5tbv9nlXuCfIXnJ9ysBMWk0WnB6UWwcVA3qZ2O6FxqDFECMAMttvLQcW/HaNZUe2BLidyvrVYw==}
+  /preact@10.17.1:
+    resolution: {integrity: sha512-X9BODrvQ4Ekwv9GURm9AKAGaomqXmip7NQTZgY7gcNmr7XE83adOMJvd3N42id1tMFU7ojiynRsYnY6/BRFxLA==}
     dev: false
 
   /preferred-pm@3.0.3:
