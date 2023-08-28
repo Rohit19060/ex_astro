@@ -13,7 +13,7 @@
   "dependencies": {
     "astro": "^2.10.7",
     "@astrojs/rss": "^2.4.4",
-    "astro": "^2.10.12",
+    "astro": "^2.10.14",
     "preact": "^10.17.1"
   }
 }
