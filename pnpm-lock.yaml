@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.3.3
     version: 3.3.3
   preact:
-    specifier: ^10.18.1
-    version: 10.18.1
+    specifier: ^10.18.2
+    version: 10.18.2
 
 packages:
 
@@ -2741,8 +2741,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preact@10.18.1:
-    resolution: {integrity: sha512-mKUD7RRkQQM6s7Rkmi7IFkoEHjuFqRQUaXamO61E6Nn7vqF/bo7EZCmSyrUnp2UWHw0O7XjZ2eeXis+m7tf4lg==}
+  /preact@10.18.2:
+    resolution: {integrity: sha512-X/K43vocUHDg0XhWVmTTMbec4LT/iBMh+csCEqJk+pJqegaXsvjdqN80ZZ3L+93azWCnWCZ+WGwYb8SplxeNjA==}
     dev: false
 
   /prebuild-install@7.1.1:
