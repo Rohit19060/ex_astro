@@ -5,15 +5,14 @@
   "private": true,
   "scripts": {
     "dev": "astro dev --host --open --port 3000",
-    "start": "astro dev --host --open --port 3000",
     "build": "astro build",
     "preview": "astro preview --host --open --port 3000",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/preact": "^3.0.1",
-    "@astrojs/rss": "^4.0.1",
-    "astro": "^4.0.7",
+    "@astrojs/preact": "^3.1.0",
+    "@astrojs/rss": "^4.0.2",
+    "astro": "^4.1.2",
     "preact": "^10.19.3"
   }
 }
