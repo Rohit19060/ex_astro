@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/preact':
-    specifier: ^3.1.0
-    version: 3.1.0(@babel/core@7.23.3)(preact@10.19.3)(vite@5.0.12)
+    specifier: ^3.1.1
+    version: 3.1.1(@babel/core@7.23.3)(preact@10.19.3)(vite@5.0.12)
   '@astrojs/rss':
     specifier: ^4.0.4
     version: 4.0.4
@@ -57,8 +57,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/preact@3.1.0(@babel/core@7.23.3)(preact@10.19.3)(vite@5.0.12):
-    resolution: {integrity: sha512-17Eo+H3fTgcmKUa7v6aAt2BIkffdTZGR4aC0K2jO4nyNhgLRAEuaoXXJwzAG1x0UHnCw7bTQ2Vv3vuJFRy1PTg==}
+  /@astrojs/preact@3.1.1(@babel/core@7.23.3)(preact@10.19.3)(vite@5.0.12):
+    resolution: {integrity: sha512-ASgmVzh4wLyIyynp5CIfDwE45Vg/tIP+Y+5SnQtURmCP1qZpjdUbsw+bGQ0wCSXtjIbzCBa7Kw7Qn0g6WE2W2w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       preact: ^10.6.5
