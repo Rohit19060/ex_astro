@@ -1,9 +1,15 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogPost from "../../components/BlogPost.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
-  const allPosts = await Astro.glob("../posts/*.md");
+  const tempPosts = import.meta.glob("../pages/posts/*.md", { eager: true });
+  const allPosts = Object.values(tempPosts).map((post) => {
+    return {
+      url: post.url,
+      frontmatter: post.frontmatter,
+    };
+  });
 
   const uniqueTags = [
     ...new Set(allPosts.map((post) => post.frontmatter.tags).flat()),
